@@ -1,0 +1,101 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Fitness Freaks - Your Gateway to Health and Fitness</title>
+    <link rel="stylesheet" href="styles.css">
+    <style>
+        /* Additional styles for workout tiles */
+        .workout-tile {
+            background-color: #fff;
+            border: 1px solid #ddd;
+            padding: 20px;
+            margin: 10px;
+            text-align: center;
+            transition: transform 0.3s;
+        }
+
+        .workout-tile:hover {
+            transform: scale(1.05);
+            box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+        }
+
+        /* Adjusted color for readability */
+        .hero-section h2,
+        .hero-section h3,
+        .hero-section p {
+            color: #0e587d;
+        }
+
+        /* Add skip link styling */
+        .skip-link {
+            position: absolute;
+            left: -10000px;
+        }
+
+        .skip-link:focus {
+            left: auto;
+        }
+        
+    </style>
+</head>
+
+<body dir="ltr">
+    <!-- Skip to content link -->
+    <a href="#content" class="skip-link">Skip to content</a>
+
+    <header>
+        <h1>Fitness Freaks</h1>
+    </header>
+
+    <nav>
+        <ul>
+            <li><a href="index.html">Home</a></li>
+            <li><a href="workouts.html">Workouts</a></li>
+            <li><a href="recipes.html">Recipes</a></li>
+            <li><a href="contact.html">Contact</a></li>
+        </ul>
+    </nav>
+
+    <section id="content" class="hero-section">
+        <h2>Welcome to Fitness Freaks</h2>
+        <p>Your journey to a healthier lifestyle starts here.</p>
+        <h3>Featured Workouts</h3>
+
+        <!-- Workout Tiles -->
+        <div class="workout-tile">
+            <h4>Full Body Workout</h4>
+            <p>A comprehensive workout targeting all major muscle groups.</p>
+        </div>
+
+        <div class="workout-tile">
+            <h4>Cardio for Beginners</h4>
+            <p>An introduction to cardio exercises to improve cardiovascular health.</p>
+        </div>
+
+        <div class="workout-tile">
+            <h4>Strength Training Basics</h4>
+            <p>Learn the fundamentals of strength training for muscle development.</p>
+        </div>
+
+        <div class="workout-tile">
+            <h4>Core Workout</h4>
+            <p>Focus on core muscles to enhance stability and strength.</p>
+        </div>
+    </section>
+
+    <footer>
+        <p>&copy; 2023 Fitness Hub. Built by Rolano Rebelo.</p>
+        <!-- Site Map Link -->
+        <p><a href="#sitemap">Site Map</a></p>
+    </footer>
+    
+    <!-- Site Map Section -->
+    <div id="sitemap">
+        <!-- Add your site map content here -->
+    </div>
+</body>
+
+</html>

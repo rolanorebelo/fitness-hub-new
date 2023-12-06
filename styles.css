@@ -1,0 +1,125 @@
+body {
+    margin: 0;
+    padding: 0;
+    font-family: 'Arial', sans-serif;
+    background: linear-gradient(to right, #ecf0f1, #bdc3c7);
+}
+
+header {
+    background: linear-gradient(to right, #3498db, #2c3e50);
+    color: #fff;
+    padding: 15px;
+    text-align: center;
+}
+
+nav {
+    background-color: #444;
+    padding: 10px;
+    text-align: center;
+}
+
+ul {
+    list-style-type: none;
+    padding: 0;
+    margin: 0;
+}
+
+li {
+    display: inline-block;
+    margin-right: 10px;
+}
+
+a {
+    color: #fff;
+    text-decoration: none;
+    padding: 10px 20px;
+    font-weight: bold;
+    transition: background-color 0.3s;
+}
+
+a:hover {
+    background-color: #555;
+}
+
+section {
+    padding: 20px;
+}
+
+#content {
+    padding: 20px;
+}
+
+footer {
+    background-color: #333;
+    color: #fff;
+    text-align: center;
+    padding: 5px; /* Adjust the padding as needed */
+    position: fixed;
+    bottom: 0;
+    width: 100%;
+}
+
+.video-container {
+    margin-bottom: 20px;
+    display: inline-block;
+    width: 48%;
+    box-sizing: border-box;
+    margin-right: 1%;
+}
+
+.description-section {
+    color: #333;
+}
+
+.hero-section {
+    background-image: url('fitness-background.jpg');
+    background-size: cover;
+    background-color: rgba(255, 255, 255, 0.7); /* Adjust the transparency level here */
+    color: rgba(0, 0, 0, 0.8); /* Adjust the transparency level here */
+    text-align: center;
+    padding: 100px;
+}
+
+.workout-tile {
+    background-color: rgba(255, 255, 255, 0.5); /* Adjust the transparency level here */
+    border: 1px solid #ddd;
+    padding: 20px;
+    margin: 10px;
+    text-align: center;
+    transition: transform 0.3s, background-color 0.3s;
+}
+
+.workout-tile:hover {
+    transform: scale(1.05);
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    background-color: rgba(255, 255, 255, 0.8);
+}
+
+.recipe-image {
+    width: 48%; /* Set the width for side-by-side display */
+    height: auto;
+    margin-bottom: 10px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1); /* Add box shadow for a nice visual effect */
+    display: inline-block; /* or use display: flex; if you prefer a flex container */
+}
+
+.gradient-section {
+    background: linear-gradient(to right, #491d5c, #c2770e);
+    color: #fff;
+    padding: 20px;
+    text-align: center;
+}
+
+#contact{
+    padding: 187px;
+}
+
+/* Add skip link styling */
+.skip-link {
+    position: absolute;
+    left: -10000px;
+}
+
+.skip-link:focus {
+    left: auto;
+}
